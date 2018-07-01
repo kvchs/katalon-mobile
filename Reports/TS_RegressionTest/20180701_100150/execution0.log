@@ -1,0 +1,1475 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-07-01T10:01:53</date>
+  <millis>1530410513414</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/TS_RegressionTest</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">TS_RegressionTest</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/TS_RegressionTest</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:53</date>
+  <millis>1530410513457</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;Administrator - XSHD--20161124D&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Administrator - XSHD--20161124D</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:53</date>
+  <millis>1530410513460</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 7 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 7 64bit</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:53</date>
+  <millis>1530410513461</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;192.168.56.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">192.168.56.1</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:53</date>
+  <millis>1530410513464</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.4.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.4.1.1</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514127</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC01_Verify Correct Alarm Message</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC01_Verify Correct Alarm Message</property>
+  <property name="description">- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Click \&quot;START ALARM SERVICE\&quot; and click \&quot;STOP ALARM SERVICE\&quot;, verify alert show is correct</property>
+  <property name="id">Test Cases/TC01_Verify Correct Alarm Message</property>
+  <property name="source">E:\\katalon_Automation\\katalon-mobile\\Test Cases\\TC01_Verify Correct Alarm Message.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514179</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514770</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514841</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Story: Verify correct alarm message</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514843</millis>
+  <sequence>9</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514844</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514846</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Given that user has started an application</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514849</millis>
+  <sequence>12</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514851</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Get full directory&apos;s path of android application</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514879</millis>
+  <sequence>14</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:01:54</date>
+  <millis>1530410514880</millis>
+  <sequence>15</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-07-01T10:01:55</date>
+  <millis>1530410515103</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting app at: &amp;apos;E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:02</date>
+  <millis>1530410522346</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 49,913</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529940</millis>
+  <sequence>19</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;appiumVersion&amp;apos; with value &amp;apos;1.8.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529978</millis>
+  <sequence>20</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceId&amp;apos; with value &amp;apos;192.168.153.101:5555&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">192.168.153.101:5555</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529979</millis>
+  <sequence>21</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceName&amp;apos; with value &amp;apos;Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529981</millis>
+  <sequence>22</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceModel&amp;apos; with value &amp;apos;Samsung Galaxy S3 - 4.3 - API 18 - 720x1280&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Samsung Galaxy S3 - 4.3 - API 18 - 720x1280</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529985</millis>
+  <sequence>23</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceManufacturer&amp;apos; with value &amp;apos;Genymotion&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Genymotion</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529986</millis>
+  <sequence>24</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceOS&amp;apos; with value &amp;apos;Android&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:09</date>
+  <millis>1530410529987</millis>
+  <sequence>25</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceOSVersion&amp;apos; with value &amp;apos;4.3&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">4.3</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530005</millis>
+  <sequence>26</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530006</millis>
+  <sequence>27</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530007</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530009</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>And he navigates the application to Activity form</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530011</millis>
+  <sequence>30</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530011</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530021</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/android.widget.TextView - App&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530068</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:10</date>
+  <millis>1530410530069</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535277</millis>
+  <sequence>35</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Application/android.widget.TextView - App&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535279</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535280</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">30</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535281</millis>
+  <sequence>38</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/App/android.widget.TextView-Activity&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535299</millis>
+  <sequence>39</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:15</date>
+  <millis>1530410535301</millis>
+  <sequence>40</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537966</millis>
+  <sequence>41</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Application/App/android.widget.TextView-Activity&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537968</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537970</millis>
+  <sequence>43</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">32</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537971</millis>
+  <sequence>44</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>When he taps on the Custom Dialog button</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537974</millis>
+  <sequence>45</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537978</millis>
+  <sequence>46</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">34</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537979</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/App/Activity/android.widget.TextView-Custom Dialog&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537995</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:17</date>
+  <millis>1530410537996</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544798</millis>
+  <sequence>50</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Application/App/Activity/android.widget.TextView-Custom Dialog&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544800</millis>
+  <sequence>51</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544801</millis>
+  <sequence>52</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - message = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog), 10)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">37</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Get displayed message on the dialog</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544803</millis>
+  <sequence>53</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544832</millis>
+  <sequence>54</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:24</date>
+  <millis>1530410544833</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545680</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of element &amp;apos;Object Repository/Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog&amp;apos; is: &amp;apos;Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545681</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - message = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog), 10)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545682</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">40</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545683</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Then the correct dialog message should be displayed</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545685</millis>
+  <sequence>60</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545685</millis>
+  <sequence>61</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">42</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545700</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Comparing actual object &amp;apos;Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.&amp;apos; with expected object &amp;apos;Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545701</millis>
+  <sequence>63</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.&amp;apos; and expected object &amp;apos;Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545703</millis>
+  <sequence>64</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:25</date>
+  <millis>1530410545704</millis>
+  <sequence>65</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">44</property>
+  <property name="stepIndex">13</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548289</millis>
+  <sequence>66</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548292</millis>
+  <sequence>67</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548293</millis>
+  <sequence>68</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC01_Verify Correct Alarm Message</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548293</millis>
+  <sequence>69</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC01_Verify Correct Alarm Message</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548306</millis>
+  <sequence>70</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TC02_Verify Last Items In List</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TC02_Verify Last Items In List</property>
+  <property name="description">- An automation script to help user getting started with Mobile automation testing.\n- Script Content: Open the application and verify the items show full when the items over loading</property>
+  <property name="id">Test Cases/TC02_Verify Last Items In List</property>
+  <property name="source">E:\\katalon_Automation\\katalon-mobile\\Test Cases\\TC02_Verify Last Items In List.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548346</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548542</millis>
+  <sequence>72</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">9</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548543</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Story: Verify correct alarm message</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548545</millis>
+  <sequence>74</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548546</millis>
+  <sequence>75</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">11</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548548</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Given that user has started an application</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548550</millis>
+  <sequence>77</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548551</millis>
+  <sequence>78</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">14</property>
+  <property name="stepIndex">3</property>
+  <property name="description">Get full directory&apos;s path of android application</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548553</millis>
+  <sequence>79</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - appPath = com.kms.katalon.core.util.internal.PathUtil.relativeToAbsolutePath(G_AndroidApp, com.kms.katalon.core.configuration.RunConfiguration.getProjectDir())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548554</millis>
+  <sequence>80</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : startApplication</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:28</date>
+  <millis>1530410548556</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting app at: &amp;apos;E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:34</date>
+  <millis>1530410554786</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Appium server started on port 50,059</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561537</millis>
+  <sequence>84</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;appiumVersion&amp;apos; with value &amp;apos;1.8.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="appiumVersion">1.8.1</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561569</millis>
+  <sequence>85</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceId&amp;apos; with value &amp;apos;192.168.153.101:5555&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceId">192.168.153.101:5555</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561570</millis>
+  <sequence>86</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceName&amp;apos; with value &amp;apos;Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceName">Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561572</millis>
+  <sequence>87</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceModel&amp;apos; with value &amp;apos;Samsung Galaxy S3 - 4.3 - API 18 - 720x1280&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceModel">Samsung Galaxy S3 - 4.3 - API 18 - 720x1280</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561573</millis>
+  <sequence>88</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceManufacturer&amp;apos; with value &amp;apos;Genymotion&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceManufacturer">Genymotion</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561575</millis>
+  <sequence>89</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceOS&amp;apos; with value &amp;apos;Android&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOS">Android</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561576</millis>
+  <sequence>90</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;deviceOSVersion&amp;apos; with value &amp;apos;4.3&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="deviceOSVersion">4.3</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561583</millis>
+  <sequence>91</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Started app at: &amp;apos;E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561585</millis>
+  <sequence>92</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : startApplication</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561585</millis>
+  <sequence>93</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561587</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>And he navigates the application to Graphics form</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561588</millis>
+  <sequence>95</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561588</millis>
+  <sequence>96</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : tap</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">6</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561589</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/android.widget.TextView - Graphics&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561661</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:41</date>
+  <millis>1530410561661</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566547</millis>
+  <sequence>100</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Tapped on element &amp;apos;Object Repository/Application/android.widget.TextView - Graphics&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566549</millis>
+  <sequence>101</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : tap</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566550</millis>
+  <sequence>102</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">7</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566552</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>When he scroll to Xfermodes text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566554</millis>
+  <sequence>104</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566555</millis>
+  <sequence>105</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : scrollToText</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">24</property>
+  <property name="stepIndex">8</property>
+</record>
+<record>
+  <date>2018-07-01T10:02:46</date>
+  <millis>1530410566628</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking text</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598202</millis>
+  <sequence>107</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Scrolling to text &amp;apos;Xfermodes&amp;apos; successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598283</millis>
+  <sequence>108</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : scrollToText</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598284</millis>
+  <sequence>109</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : comment</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">9</property>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598285</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Then the current screen should show Xfermodes text after scrolling</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598286</millis>
+  <sequence>111</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : comment</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598287</millis>
+  <sequence>112</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - itemText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/Graphics/android.widget.TextView - Xfermodes), G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">29</property>
+  <property name="stepIndex">10</property>
+  <property name="description">Get item&apos;s label</property>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598288</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Application/Graphics/android.widget.TextView - Xfermodes&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598351</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598352</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598647</millis>
+  <sequence>116</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Text of element &amp;apos;Object Repository/Application/Graphics/android.widget.TextView - Xfermodes&amp;apos; is: &amp;apos;Xfermodes&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598648</millis>
+  <sequence>117</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - itemText = com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(Application/Graphics/android.widget.TextView - Xfermodes), G_Timeout)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598650</millis>
+  <sequence>118</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : verifyEqual</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">11</property>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598651</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Comparing actual object &amp;apos;Xfermodes&amp;apos; with expected object &amp;apos;Xfermodes&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598652</millis>
+  <sequence>120</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Actual object &amp;apos;Xfermodes&amp;apos; and expected object &amp;apos;Xfermodes&amp;apos; are equal</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598653</millis>
+  <sequence>121</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : verifyEqual</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:18</date>
+  <millis>1530410598654</millis>
+  <sequence>122</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : closeApplication</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">33</property>
+  <property name="stepIndex">12</property>
+</record>
+<record>
+  <date>2018-07-01T10:03:20</date>
+  <millis>1530410600335</millis>
+  <sequence>123</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Close app successfully</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:20</date>
+  <millis>1530410600338</millis>
+  <sequence>124</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : closeApplication</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:20</date>
+  <millis>1530410600340</millis>
+  <sequence>125</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test Cases/TC02_Verify Last Items In List</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:20</date>
+  <millis>1530410600342</millis>
+  <sequence>126</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endTest</method>
+  <thread>1</thread>
+  <message>End Test Case : Test Cases/TC02_Verify Last Items In List</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+<record>
+  <date>2018-07-01T10:03:20</date>
+  <millis>1530410600358</millis>
+  <sequence>127</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endSuite</method>
+  <thread>1</thread>
+  <message>End Test Suite : Test Suites/TS_RegressionTest</message>
+  <nestedLevel>0</nestedLevel>
+</record>
+</log>

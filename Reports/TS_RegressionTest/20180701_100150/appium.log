@@ -1,0 +1,183 @@
+[35m[Appium][39m Welcome to Appium v1.8.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50059
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   chromeDriverPort: 50060
+[35m[Appium][39m   tmpDir: C:\Users\ADMINI~1\AppData\Local\Temp\\Katalon\Appium\Temp1530410548557
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50059
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m84 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"deviceName":"Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.153.101:5555"},"capabilities":{"desiredCapabilities":{"app":"E:\\katalon_Automation\\katalon-mobile\\androidapp\\APIDemos.apk","autoGrantPermissions":true,"deviceName":"Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"192.168.153.101:5555"},"firstMatch":[{"platformName":"android"}]}}[39m
+[35m[Appium][39m Could not parse W3C capabilities: 'deviceName' can't be blank. Falling back to JSONWP protocol.
+[35m[Appium][39m The following capabilities were provided in the JSONWP desired capabilities that are missing in W3C capabilities: ["app","autoGrantPermissions","deviceName","fullReset","newCommandTimeout","noReset","platform","platformName","udid"]. Falling back to JSONWP protocol.
+[35m[Appium][39m Creating new AndroidDriver (v2.7.0) session
+[35m[Appium][39m Capabilities:
+[35m[Appium][39m   app: E:\katalon_Automation\katalon-mobile\androidapp\APIDemos.apk
+[35m[Appium][39m   autoGrantPermissions: true
+[35m[Appium][39m   deviceName: Genymotion Samsung Galaxy S3 - 4.3 - API 18 - 720x1280 (Android 4.3)
+[35m[Appium][39m   fullReset: false
+[35m[Appium][39m   newCommandTimeout: 1800
+[35m[Appium][39m   noReset: true
+[35m[Appium][39m   platform: ANDROID
+[35m[Appium][39m   platformName: Android
+[35m[Appium][39m   udid: 192.168.153.101:5555
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by appium: platform.
+[35m[BaseDriver][39m Session created with session id: 63d80622-9694-41b2-92ee-7ffca31e7dba
+[35m[AndroidDriver][39m Java version is: 1.8.0_102
+[35m[ADB][39m Checking whether adb is present
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\Administrator\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Administrator/.katalon/tools/android_sdk/build-tools/27.0.3
+[35m[ADB][39m Using adb.exe from C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\adb.exe
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 192.168.153.101:5555
+[35m[BaseDriver][39m Using local app 'E:\katalon_Automation\katalon-mobile\androidapp\APIDemos.apk'
+[35m[AndroidDriver][39m Starting Android session
+[35m[ADB][39m Checking whether aapt is present
+[35m[ADB][39m Using aapt.exe from C:\Users\Administrator\.katalon\tools\android_sdk\build-tools\27.0.3\aapt.exe
+[35m[AndroidDriver][39m setDeviceLanguageCountry requires language or country.
+[35m[AndroidDriver][39m Got language: 'null' and country: 'null'
+[35m[ADB][39m Getting device platform version
+[35m[ADB][39m Using the alternative activity name detection method because of: Could not find apkanalyzer.bat in C:\Users\Administrator\.katalon\tools\android_sdk\platform-tools\apkanalyzer.bat,C:\Users\Administrator\.katalon\tools\android_sdk\emulator\apkanalyzer.bat,C:\Users\Administrator\.katalon\tools\android_sdk\tools\apkanalyzer.bat,C:\Users\Administrator\.katalon\tools\android_sdk\tools\bin\apkanalyzer.bat,C:\Users\Administrator\.katalon\tools\android_sdk\build-tools\27.0.3\apkanalyzer.bat. Do you have the Android SDK installed at 'C:\Users\Administrator\.katalon\tools\android_sdk'?
+[35m[ADB][39m Extracting package and launch activity from manifest
+[35m[ADB][39m Package name: 'com.hmh.api'
+[35m[ADB][39m Main activity name: 'com.hmh.api.ApiDemos'
+[35m[ADB][39m Successfully extracted 882 strings from 'E:\katalon_Automation\katalon-mobile\androidapp\APIDemos.apk' resources for '(default)' configuration
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[35m[AndroidBootstrap][39m Android bootstrap socket is now connected
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[Appium][39m New AndroidDriver session created successfully, session 63d80622-9694-41b2-92ee-7ffca31e7dba added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m6584 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m89 ms - 55[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/timeouts[39m
+[35m[HTTP][39m [90m{"type":"implicit","ms":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/timeouts [39m[33m400[39m [90m23 ms - 5529[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/window/current/size [39m[32m200[39m [90m33 ms - 99[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Graphics\").resourceId(\"android:id/text1\").instance(5)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/elements [39m[32m200[39m [90m1426 ms - 89[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m3 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m3 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/1/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/1/location [39m[32m200[39m [90m2465 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/touch/perform[39m
+[35m[HTTP][39m [90m{"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/touch/perform [39m[32m200[39m [90m895 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context [39m[32m200[39m [90m5 ms - 84[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/contexts [39m[32m200[39m [90m126 ms - 86[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context [39m[32m200[39m [90m156 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().textContains(\"Xfermodes\"))"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element [39m[32m200[39m [90m30671 ms - 87[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m5 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/context [39m[32m200[39m [90m73 ms - 76[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/window/current/size[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/window/current/size [39m[32m200[39m [90m9 ms - 99[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Xfermodes\").resourceId(\"android:id/text1\").instance(19)"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/elements [39m[32m200[39m [90m114 ms - 105[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m6 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m4 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m5 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m3 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m3 ms - 1170[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/3/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/3/location [39m[32m200[39m [90m45 ms - 88[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/3/text[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba/element/3/text [39m[32m200[39m [90m14 ms - 83[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 63d80622-9694-41b2-92ee-7ffca31e7dba from our master session list
+[35m[ADB][39m No uiautomator process found to kill, continuing...
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/63d80622-9694-41b2-92ee-7ffca31e7dba [39m[32m200[39m [90m1630 ms - 76[39m
+[35m[HTTP][39m [90m[39m
